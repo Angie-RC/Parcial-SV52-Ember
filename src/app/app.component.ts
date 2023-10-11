@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Ember';
+  options = [
+    {path: '/home', title: 'Home'},
+    {path: '/store/bundles', title: 'Bundles'},
+  ]
 }
